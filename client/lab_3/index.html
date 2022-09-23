@@ -23,11 +23,15 @@
       </div>
       <div class="right_section box">
         <h3>Image Carousel</h3>
-        <div class="grid"> 
-          <img class="grid img" src="images/blackbear.png" alt="A Black Bear">
-          <img class="grid img" src="images/brownbear.png" alt="A Brown Bear">
-          <img class="grid img" src="images/grizzlybear.png" alt="A Grizzly Bear">
-          <img class="grid img" src="images/polarbear.png" alt="A Polar Bear">
+        <div class="carousel">
+            <button class="prev">prev</button>
+            <div class="slides">
+              <div class="carousel_item" visible><img id="slide_1" src="images/blackbear.png" alt="An image of Black Bear"></div>
+              <div class="carousel_item" hidden><img id="slide_2" src="images/brownbear.png" alt="An image of Brown Bear"></div>
+              <div class="carousel_item" hidden><img id="slide_3" src="images/grizzlybear.png" alt="An image of Grizzly Bear"></div>
+              <div class="carousel_item" hidden><img id="slide_4" src="images/polarbear.png" alt="An image of Polar Bear"></div>
+            </div>
+            <button class="next">next</button>
         </div>
         <div class="box">
           <p>These images are of "Mochi Balls".
