@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 /* eslint-disable no-console */
-import express from 'express';
+import express, { query } from 'express';
 
 /*
   ## What is this file?
