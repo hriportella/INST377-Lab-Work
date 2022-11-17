@@ -314,10 +314,8 @@
       }
   }
   
-  /* CSS instructions for Lab 5 */
-  /* Bring in your successful CSS from week 4 */
-  /* In your #map rule, set map to display:none; to temporarily hide your map box */
-  
+  /* MAP STYLES */
+  #map { height: 180px; }
   
   /* 
       New code bonus: pure CSS data loading icon
